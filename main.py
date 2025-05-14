@@ -11,7 +11,7 @@ class GreetRequest(BaseModel):
 def read_root():
     return {"message": "Hello From FastAPI in Docker!"}
 
-# four th commit
+#eighth commit
 @app.post("/greet/{name}")
 def greet_user(name : str):
     return {"message": f"Hello {name}!"}
